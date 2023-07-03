@@ -53,6 +53,10 @@ img {
     align-items: center;
 }
 
+.slide {
+    margin-left: 3px;
+}
+
 /* SCREEN */
 .screen {
     width: 315px;
@@ -61,19 +65,18 @@ img {
     background-color: #ffff;
     border-radius: 8px;
     margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: end;
+    text-align: right;
 }
 
 .prev {
     font-size: 20px;
+    min-height: 32px;
     margin-right: 9px;
-   
+    margin-top: 5px;
 }
 
-.new {
+.current {
     font-size: 45px;
-    margin-right: 7px
+    min-height: 64px;
+    margin-right: 7px;
 }
